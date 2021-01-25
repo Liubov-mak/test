@@ -317,7 +317,7 @@ ul {
 	background-repeat: no-repeat;
 	transition: all 0.3s ease;
 }
-.about-us-list li {
+.about-us-list a {
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: normal;
 	font-size: 16px;
@@ -329,7 +329,7 @@ ul {
 	position: relative;
 	padding-right: 25px;
 }
-.about-us-list li:after {
+.about-us-list a:after {
 	content: "";
 	position: absolute;
 	background-image: url('../images/arr-r.svg');
@@ -340,7 +340,7 @@ ul {
 	transform: translateY(-50%);
 	background-repeat: no-repeat;	
 }
-.about-us-list li:hover,
+.about-us-list a:hover,
 .about-us-list .active {
 	color: #D2001C;
 	text-decoration: underline;
@@ -348,6 +348,7 @@ ul {
 	position: relative;
 	cursor: pointer;
 }
+.about-us-list a:hover::after,
 .about-us-list .active:after {
 	content: "";
 	position: absolute;
