@@ -1,0 +1,35 @@
+{
+  "name": "js-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.prod.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liubov-mak/js-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liubov-mak/js-page/issues"
+  },
+  "homepage": "https://github.com/Liubov-mak/js-page#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "chai": "^4.2.0",
+    "jest": "^26.6.3",
+    "mocha": "^8.2.1",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
+}
